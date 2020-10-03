@@ -15,7 +15,7 @@
     "redux": "^4.0.5"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "serve -s build -p $PORT",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "heroku-postbuild": "npm run build",
