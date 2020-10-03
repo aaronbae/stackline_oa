@@ -19,7 +19,11 @@ function App() {
 
   return (
     <div className="App">
-      <header className="header"><img src="stackline-logo.png" alt="Stackline Logo" /></header>
+      <header className="header">
+        <a href="https://stackline-oa.herokuapp.com/">
+          <img src="stackline-logo.png" alt="Stackline Logo" />
+        </a>
+      </header>
       <div className="Main">
         <ProductOverview className="Main-side"/>
         <Chart className="Main-top"/>

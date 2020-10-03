@@ -8,8 +8,16 @@
 .product-table-table > tbody > tr {
   border-top: 1px solid rgba(0,0,0,0.1);
 }
-.product-table-table th {
+.customTH {
   padding: 25px 10px;
+  cursor: pointer;
+}
+.customTH:hover {
+  background-color: rgba(0,0,0,0.03);
+}
+.customTH > img {
+  margin-left: 10px;
+  width: 10px;
 }
 .product-table-table td {
   color: gray;

@@ -31,17 +31,25 @@ export default function Table(props) {
       return -1
     })
   }
+  const CustomTH = props =>{
+    return (
+      <th className="customTH" onClick={()=>setSortBy(props.attribute)}>
+        {props.display}
+        <img src="/arrow.svg" alt="Arrow Icon"/>
+      </th>
+    )
+  }
 
   return (
     <div className={props.className + " product-table-container"}>
       <table className="product-table-table">
         <thead>
           <tr>
-            <th>WEEK ENDING </th>
-            <th>RETAIL SALES</th>
-            <th>WHOLESALE SALES</th>
-            <th>UNITS SOLD</th>
-            <th>RETAILER MARGIN</th>
+            <CustomTH attribute="weekEnding" display="WEEK ENDING"/>
+            <CustomTH attribute="retailSales"  display="RETAIL SALES"/>
+            <CustomTH attribute="wholesaleSales"  display="WHOLESALE SALES"/>
+            <CustomTH attribute="unitsSold"  display="UNITS SOLD"/>
+            <CustomTH attribute="retailerMargin"  display="RETAILER MARGIN"/>
           </tr>
         </thead>
         <tbody>
