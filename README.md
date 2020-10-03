@@ -16,6 +16,8 @@ You can check out the finished page in this [link](https://stackline-oa.herokuap
 2. A table that can be sorted by the column
 3. "view_index" variable in "/redux/productSlice.js" allows for different product selection (if the Webdev_data2.json file had more than 1 product)
 4. Async fetching for Webdev_data2.json file 
+5. Icon for the browser tab
+6. Title for the browser tab
 
 ## Features that could Improve the Page:
 1. Reverse sorting the columns via toggling
