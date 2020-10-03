@@ -1,0 +1,17 @@
+.product-table-table {
+  width: 100%;
+}
+.product-table-table {
+  border-collapse: collapse;
+  text-align: center;
+}
+.product-table-table > tbody > tr {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+.product-table-table th {
+  padding: 25px 10px;
+}
+.product-table-table td {
+  color: gray;
+  padding: 10px;
+}
